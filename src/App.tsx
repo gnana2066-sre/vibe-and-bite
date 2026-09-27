@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import type { FormEvent } from "react";
 import type { User } from "@supabase/supabase-js";
 import { supabase } from "./supabaseClient";
 import "./App.css";
