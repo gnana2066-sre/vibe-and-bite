@@ -1934,3 +1934,10 @@ p {
     transition-duration: 0.01ms !important;
   }
 }
+.brand-logo {
+  display: block;
+  height: 50px;
+  width: auto;
+  max-width: 220px;
+  object-fit: contain;
+}

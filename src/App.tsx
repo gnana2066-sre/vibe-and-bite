@@ -902,13 +902,18 @@ const openTrips = async () => {
 
   return (
     <div className="app">
-      <header className="navbar">
-        <button className="brand" onClick={goHome} aria-label="Vibe and Bite home">
-          <span className="brand-icon">✦</span>
-          <span>
-            Vibe <span className="brand-amp">&</span> Bite
-          </span>
-        </button>
+  <header className="navbar">
+    <button
+      className="brand"
+      onClick={goHome}
+      aria-label="Vibe and Bite home"
+    >
+      <img
+        src="/logo1.jpeg"
+        alt="Vibe & Bite"
+        className="brand-logo"
+      />
+    </button>
 
         <button
           className="mobile-menu-btn"
